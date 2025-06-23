@@ -28,13 +28,21 @@ Each step is implemented as a LangChain component using prompt templates, the Ge
 
 
 Input: orig_message
+
        ↓
+       
 [Chain 1] → orig_language
+
        ↓
+       
 [Chain 2] → tran_message
+
        ↓
+       
 [Chain 3] → tran_response
+
        ↓
+       
 [Chain 4] → final_response
 
 **Setup Instructions**
