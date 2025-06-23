@@ -27,23 +27,8 @@ Translate the English response back to the original customer language, if needed
 Each step is implemented as a LangChain component using prompt templates, the Gemini model, and a string parser. The chains are executed in a sequential pipeline.
 
 
-Input: orig_message
+<img width="257" alt="image" src="https://github.com/user-attachments/assets/202fc154-97aa-4d8f-a099-f2f3340300b2" />
 
-       ↓
-       
-[Chain 1] → orig_language
-
-       ↓
-       
-[Chain 2] → tran_message
-
-       ↓
-       
-[Chain 3] → tran_response
-
-       ↓
-       
-[Chain 4] → final_response
 
 **Setup Instructions**
 
